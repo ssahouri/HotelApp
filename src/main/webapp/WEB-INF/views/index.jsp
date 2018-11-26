@@ -12,8 +12,8 @@
 <form action ="/hotel-listing">
 <select name = "city">
 <c:forEach var ="city" items = "${ hotels }">
-  <option value="city">${city.city }</option>
-  <option value="city">${city.city }</option>
+
+  <option value="${city.city }">${city.city }</option>
 </c:forEach>
 
 </select>
