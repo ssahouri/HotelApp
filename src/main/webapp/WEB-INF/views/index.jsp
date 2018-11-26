@@ -11,10 +11,11 @@
 <h1>Hotel Search</h1>
 <form action ="/hotel-listing">
 <select name = "city">
-<c:forEach var ="city" items = "${ hotels }">
 
-  <option value="${city.city }">${city.city }</option>
-</c:forEach>
+<option value="">Show All</option>
+  <option value="Detroit">Detroit</option>
+    <option value="Grand Rapids">Grand Rapids</option>
+
 
 </select>
 <button type = "submit">Go</button>
